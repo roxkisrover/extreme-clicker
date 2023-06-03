@@ -6,7 +6,7 @@ export function App() {
   return (
     <div>
       <button
-        class="block bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded"
+        class="block rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-700"
         onClick={() => setCount((count) => count + 1)}
       >
         count is {count}
